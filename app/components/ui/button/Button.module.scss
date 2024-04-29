@@ -1,0 +1,19 @@
+.primary {
+	@apply text-center shadow-md rounded-2xl bg-white-500 border-[1px] border-solid border-white-400 duration-300 text-sm leading-4;
+}
+
+.primary:hover {
+    @apply bg-purple-400 text-white-300 primary-hover-transition;
+}
+
+.lg {
+	@apply px-3 py-5 w-full max-w-xs max-h-16;
+}
+
+.purple {
+	@apply text-center shadow-md rounded-2xl bg-white-300 border-[1px] border-solid border-white-300 text-purple-400 duration-300 text-sm leading-4;
+}
+
+.purple {
+    @apply bg-white-500 primary-hover-transition;
+}
